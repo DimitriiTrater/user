@@ -6,6 +6,8 @@ return {
       "lua",
       "cpp",
       "python",
+      "rust",
     })
   end,
+  event = "User AstroFile",
 }
