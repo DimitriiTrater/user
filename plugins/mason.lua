@@ -28,11 +28,9 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- "prettier",
         "stylua",
-
         "flake8",
         "autoflake",
-
-        "clang-format",
+        -- "clang-format",
         "cmakelang",
         "cmakelint",
       })
