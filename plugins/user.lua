@@ -13,10 +13,11 @@ return {
       require("gitblame").setup {
         enabled = true,
         message_template = "<date> • <author> • <summary>",
-        message_when_not_committed = "Может и не стоить это коммитить?",
+        message_when_not_committed = "Может и не стоит это коммитить?",
         date_format = "%x",
         highlight_group = "Comment",
-      } end,
+      }
+    end,
     event = "User AstroFile",
   },
   -- {
