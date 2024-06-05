@@ -7,6 +7,7 @@ return {
       "cpp",
       "python",
       "rust",
+      "haskell",
     })
   end,
   event = "User AstroFile",
